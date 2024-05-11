@@ -7,6 +7,8 @@ Whether you are testing complex CDK applications or Terraform configurations, or
 
 LocalStack supports a growing number of AWS services, like AWS Lambda, S3, DynamoDB, Kinesis, SQS, SNS, and more! LocalStack Pro supports additional APIs and advanced features to make your cloud development experience a breeze!
 ou can find a comprehensive list of supported APIs on our Feature Coverage page.
+https://docs.localstack.cloud/user-guide/aws/feature-coverage/
+
 # Install localstack
 On macos:
 ```
