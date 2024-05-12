@@ -12,8 +12,11 @@ https://docs.localstack.cloud/user-guide/aws/feature-coverage/
 # Install localstack
 On macos:
 ```
-brew  install localstack
+docker pull localstack/localstack
+docker run --rm -it -p 4566:4566 -p 4510-4559:4510-4559 localstack/localstack
 ```
+Learn more: https://hub.docker.com/r/localstack/localstack
+
 # How to launch localstack
 1) cli 'SERVICES=s3,sts localstack start'
 2) docker-compose `cd docker && docker-compose up`  or `docker-compose -f docker/docker-compose.yml up`
